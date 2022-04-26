@@ -3,7 +3,7 @@ let profileHTMLOutput = ""
 async function getUser(){
     let response = await fetch(`https://jsonplaceholder.typicode.com/users/3`)
     let data = await response.json()
-    console.log(data)
+    // console.log(data)
     profileHTML(data)
 }
 
@@ -37,7 +37,7 @@ document.getElementById("user-containerEL").innerHTML = `
 <span class="street">${user.address.street}</span>
 <span class="suite">${user.address.suite}</span>
 <span class="city">${user.address.city}</span>
-<span class="zip">${user.address.zip}/span>
+<span class="zip">${user.address.zipcode}</span>
 </div>
 </div>
 
