@@ -15,7 +15,7 @@ body {
 }
 
 body {
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,6 +29,36 @@ p {
   margin: 0;
 }
 
-/* holds all users */
+/* main-container holds all users */
 .user-container {
+}
+
+/* indiv profile container */
+.user-profile {
+  /* width: 90%; */
+  height: 200px;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 10px;
+}
+
+.top {
+  border: 1px solid blue;
+  display: flex;
+  justify-content: space-between;
+  
+
+.top-middle {
+  border: 1px solid green;
+}
+
+.bottom-middle {
+  border: 1px solid purple;
+}
+
+.profile-footer {
+  border: 1px solid yellow;
 }

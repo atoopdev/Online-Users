@@ -13,14 +13,15 @@ console.log(`user's name: ${user.name} username: ${user.username} Company: ${use
 document.getElementById("user-containerEL").innerHTML = `
 <div class="user-profile">
 
-<div class="top"><h2 class="name">${user.name}</h2>
-<span class="username">username: ${user.username}</span>
+<div class="top">
+<h2>${user.name}</h2>
+<span class="username">@${user.username}</span>
 </div>
 
 <div class="top-middle"><h2>Company</h2>
 <div class="company">
 <span class="company-name">${user.company.name}</span> 
-<span class="company-phrase>${user.company.catchPhrase}</span> 
+<span class="company-phrase">${user.company.catchPhrase}</span> 
 <span class="company-bs">${user.company.bs}</span>
 </div>
 </div>
@@ -32,7 +33,7 @@ document.getElementById("user-containerEL").innerHTML = `
 </div>
 </div>
 
-<div class="profile-footer><h2>Address</h2>
+<div class="profile-footer"><h2>Address</h2>
 <div class="user-address">
 <span class="street">${user.address.street}</span>
 <span class="suite">${user.address.suite}</span>
