@@ -1,0 +1,34 @@
+/* takes content size, padding, and border into account when determing size of content */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 0.75rem;
+  font-family: "Roboto", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* remove margins on typography to keep margins consistent */
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+/* holds all users */
+.user-container {
+}
