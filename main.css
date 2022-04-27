@@ -37,7 +37,7 @@ p {
 .user-profile {
   width: 90%;
   /* height: 250px; */
-  border: 1px solid red;
+  border: 1px solid grey;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -46,13 +46,19 @@ p {
 }
 
 .top {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   display: flex;
   justify-content: space-between;
+  margin-bottom: 1em;
+}
+
+.username {
+  font-weight: 700;
+  font-size: 1.5rem;
 }
 
 .top-middle {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   text-align: center;
 }
 
@@ -79,6 +85,6 @@ p {
 }
 
 .profile-footer {
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   text-align: center;
 }
