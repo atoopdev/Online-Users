@@ -16,6 +16,7 @@ body {
 
 body {
   height: 100vh;
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,27 +30,36 @@ p {
   margin: 0;
 }
 
+h2{
+  padding: 1em;
+}
+
 /* main-container holds all users */
 .user-container {
+  max-width: 800px;
+  min-width: 300px;
 }
 
 /* indiv profile container */
 .user-profile {
-  width: 90%;
-  /* height: 250px; */
-  border: 1px solid grey;
+  width: 95%;
+  max-width: 800px;
+  min-width: 300px;
+  height: 454px;
+  border: 1px solid #14213d;
+  border-radius: 6px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* align-items: center; */
-  padding: 10px;
+  background-color: #e5e5e5;
 }
 
 .top {
-  /* border: 1px solid blue; */
   display: flex;
   justify-content: space-between;
-  margin-bottom: 1em;
+  background-color: #fca311;
+  
+  
 }
 
 .username {
@@ -60,11 +70,18 @@ p {
 .top-middle {
   /* border: 1px solid green; */
   text-align: center;
+  background-color: #14213d;
+  color: #fca311;
+  
+  
 }
 
 .company {
   display: flex;
   flex-direction: column;
+  background-color: #e5e5e5;
+  color: #14213d;
+  
 }
 
 .company > span {
@@ -73,11 +90,15 @@ p {
 
 .bottom-middle {
   text-align: center;
+  background-color: #14213d;
+  color: #fca311;
 }
 
 .contact-details {
   display: flex;
   flex-direction: column;
+  background-color: #e5e5e5;
+  color: #14213d;
 }
 
 .contact-details span {
@@ -87,4 +108,13 @@ p {
 .profile-footer {
   /* border: 1px solid yellow; */
   text-align: center;
+  
+  background-color: #14213d;
+  color: #fca311;
+}
+
+.user-address{
+  background-color: #e5e5e5;
+  color: #14213d;
+  padding: .5em;
 }

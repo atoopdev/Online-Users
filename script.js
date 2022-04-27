@@ -15,7 +15,7 @@ document.getElementById("user-containerEL").innerHTML = `
 
 <div class="top">
 <h2>${user.name}</h2>
-<span class="username">@${user.username}</span>
+<h2 class="username">@${user.username}</h2>
 </div>
 
 <div class="top-middle"><h2>Company</h2>
